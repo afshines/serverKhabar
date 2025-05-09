@@ -12,7 +12,7 @@ const StrategyJwt = passportJWT.Strategy;
 const Users = require("./models/user").Users;
 const History = require("./models/history").History;
 const passport_admin = require("passport");
-const secretOrKey = "UkXp2s5v8y/B?E(H+MbQeThVmYq3t6w9z$C&F)J@NcRfUjXnZr4u7x!A";
+const secretOrKey = "UkXp2s5v8y/B?E(H+MbQeThVmY)J@NcRfUjXnZr4u7x!A";
 const farsiChars = [
     ".",
     "آ",
@@ -854,7 +854,7 @@ app.post('/send_notif', passport_admin.authenticate("operator-rule", { session: 
 
                 headers: {
                     'Content-Type': 'application/json',
-                    Authorization: 'key=AAAA7-JVU-8:APA91bF_2Kim0AqE-FB86hMtYPZrECjggLWGR6gtVK2moMi97NA-iOsiqTSXXhtT3bi0R2qYsYEB2tZ1MmKBQCXQ7daztMDnkmCwaLsdZc2VZWwum69mYYtiSSHA1HwZ7ACvgUjd4bxb'
+                    Authorization: 'key=AAAA7-JVU-8:APA91bF_2Kim0AqE-FB86hMtYPoMi97NA-iOsiqTSXXhtT3bi0R2qYsYEB2tZ1MmKBQCXQ7daztMDnkmCwaLsdZc2VZWwum69mYYtiSSHA1HwZ7ACvgUjd4bxb'
                 },
             })
                 .then(async function (response) {
@@ -892,7 +892,7 @@ app.post('/send_notif', passport_admin.authenticate("operator-rule", { session: 
 
                             headers: {
                                 'Content-Type': 'application/json',
-                                Authorization: 'key=AAAA7-JVU-8:APA91bF_2Kim0AqE-FB86hMtYPZrECjggLWGR6gtVK2moMi97NA-iOsiqTSXXhtT3bi0R2qYsYEB2tZ1MmKBQCXQ7daztMDnkmCwaLsdZc2VZWwum69mYYtiSSHA1HwZ7ACvgUjd4bxb'
+                                Authorization: 'key=AAAA7-JVU-8:APA91bF_2Kim0AqE-FB86hMtMi97NA-iOsiqTSXXhtT3bi0R2qYsYEB2tZ1MmKBQCXQ7daztMDnkmCwaLsdZc2VZWwum69mYYtiSSHA1HwZ7ACvgUjd4bxb'
                             },
                         });
 
